@@ -1,0 +1,148 @@
+/*import fonts from fonts.css file*/
+
+@import url(./fonts.css);
+
+/*css variables*/
+@import url(./partials/_variables.css);
+
+/*import global styling*/
+@import url(./partials/_global.css);
+
+/*comienza la navegacion del menu*/
+.header_area .main-menu .navbar .navbar-brand{
+    padding:0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar{
+    padding:1rem 20rem;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font:normal 600 15px/2px var(--roboto);
+    padding:1rem 20rem;
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .navbar .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+}
+
+/*termina la navegacion del menu*/
+
+
+/*comienza el Banner_Area*/
+.site-main .site-banner{
+    background: url(../img/banner/banner.png) no-repeat 0% 50%;
+}
+
+.site-main .site-banner .site-title h3{
+   padding: top 35%;
+   font-weight: 500;
+   font-size: x-small;
+}
+
+.site-main .site-banner .site-title h3::after{
+   content:"";
+   height:2px;
+   width:18vw;
+   background:black;
+   display:inline-block;
+   margin-left: 5%;
+   transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 4rem;
+   
+ }
+
+ .site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+   }
+
+
+   .site-main .site-banner .banner-image> img{
+   padding:7rem 0;
+   width: 90rem;
+ }
+/*termina el Banner_Area*/
+
+/*Empieza la seccion SOBRE MI*/
+.site-main .about-area{
+padding:7rem 3rem;
+}
+.site-main .about-area .about-title h2>span{
+    display:block;
+    font: normal bold 34px/60px var(--roboto);
+    letter-spacing: 18px;
+    }
+
+    .site-main .about-area .about-title paragraph>p{
+        padding: .1rem 0;
+    }
+/*Termina la seccion SOBRE MI*/
+
+/*Empieza la seccion SERVICIOS*/
+.site-main .services-area{
+    padding: 7rem 2rem;
+}
+
+.site-main .services-area .services-title{
+    padding: 0 14rem;  
+}
+
+.site-main .services-area .services-title h1{
+    font-size: 35px; 
+}
+
+.site-main .services-area .services{
+    background:rgba(248, 248, 248, 0.973);
+    padding:2rem 0;
+    width:15rem;
+    margin: 4rem .4rem;
+    transition: box-shadow .7s ease;
+}
+
+/*Termina la seccion SERVICIOS*/
+
+
+/*Comienza la seccion PORTFOLIO*/
+.site-main .project-area{
+    padding:4rem 0;
+}
+
+.site-main .project-area .button-group button{
+background: transparent;
+border: none;
+font: normal 500 16px/130px var(--roboto);
+text-transform: uppercase;
+}
+
+.site-main .project-area .button-group button+button{
+   padding-left:3rem;
+      
+}
+
+.site-main .project-area .grid .our-project> .title h4{
+    font: normal 700 25px/12px var(--roboto);
+
+}
+
+/*Termina la seccion PORTFOLIO*/
+
+
+
+
+
